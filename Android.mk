@@ -15,6 +15,7 @@ LOCAL_SRC_FILES := arraylist.c \
 		printbuf.c \
 		random_seed.c
 LOCAL_SHARED_LIBRARIES := libcutils libutils
+LOCAL_CFLAGS := -Wno-unused-parameter
 LOCAL_MODULE_TAG := optional
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
